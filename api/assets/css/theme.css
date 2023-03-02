@@ -1,0 +1,132 @@
+/* ROOT COLORS */
+:root{
+    --background-color-dark: #1c1c1c;
+    --secondary-background-color-dark: #272727;
+    --terciary-background-color-dark: #151515;
+    --letter-color-dark: #f4f4f4;
+    --important-color-dark: #9903f0;
+}
+
+.dark{
+    transition: .2s;
+}
+
+
+.dark ::-webkit-scrollbar{
+
+    width: 7px;
+    background-color: var(--secondary-background-color-dark);
+}
+
+
+.dark *{
+    color: var(--letter-color-dark);
+}
+
+/* BODY */
+body.dark{
+    background-color: var(--background-color-dark);
+}
+
+/* MENU */
+.dark .menu {
+    background-color: var(--secondary-background-color-dark);
+}
+
+.dark .btn-menu{
+    background-color: var(--background-color-dark);
+    color: var(--letter-color-dark);
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.dark .btn-menu:hover{
+    background-color: var(--important-color-dark);
+    box-shadow: 0px 0px 10px 0px var(--important-color-dark);
+}
+
+/* BANNER INITIAL */
+
+.dark .banner-initial, 
+.dark .box-contents,
+.dark footer{
+    background-color: var(--secondary-background-color-dark);
+}
+
+.dark .banner-initial p{
+    color: var(--letter-color-dark);
+}
+
+/* TITLES */
+
+.dark .titles{
+    background-color: var(--background-color-dark);
+    color: var(--letter-color-dark);
+    
+}
+
+.dark .titles:hover{
+    background-color: var(--terciary-background-color-dark);
+}
+
+.dark .box-materias{
+    background-color: var(--terciary-background-color-dark);
+}
+
+.dark .box-materias label{
+    background-color: var(--background-color-dark);
+}
+
+.dark input[type=checkbox]:before {
+    background-color: var(--background-color-dark);
+}
+
+/* LOGIN */
+
+.dark .open-config li{
+    background-color: var(--secondary-background-color-dark);
+}
+
+.dark .open-config li i{
+    background-color: var(--background-color-dark);
+}
+
+.dark .open-config li:hover{
+    background-color: var(--background-color-dark);
+}
+
+.dark .open-config li:hover i{
+    background-color: var(--secondary-background-color-dark);
+    color: var(--important-color-dark);
+}
+
+/* COOKIE ALERT */
+
+.dark .alertCookie section{
+    background-color: var(--terciary-background-color-dark);
+}
+
+/* FEEDBACKS */
+
+.dark .feedback form{
+    background-color: var(--terciary-background-color-dark);
+}
+
+.dark .feedback form input{
+    border-bottom: 1px solid var(--letter-color-dark);
+}
+
+.dark .feedback form textarea{
+    border: 1px solid var(--letter-color-dark);
+}
+
+.dark .feedback form textarea:focus{
+    border: 1px solid var(--important-color-dark);
+}
+
+.dark .btn-closeFeedback{
+    background-color: var(--secondary-background-color-dark);
+}
+
+.dark .btn-closeFeedback:hover{
+    background-color: var(--important-color-dark);
+}
